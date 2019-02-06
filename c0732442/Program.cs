@@ -10,6 +10,18 @@ namespace c0732442
     {
         static void Main(string[] args)
         {
+            MethodA();
+        }
+        public static void MethodA()
+        {
+            while (Peanut())
+            {
+                Console.WriteLine("hi world");
+            }
+        }
+        public static bool Peanut()
+        {
+            return true;
         }
     }
 }
